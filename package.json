@@ -1,0 +1,32 @@
+{
+  "name": "aws-sdk-light-apigee-bundle",
+  "version": "1.0.0",
+  "description": "aws-sdk-light module bundled as a single file for Rhino runtime, for use in Apigee's JavaScript callout policy",
+  "private": true,
+  "main": "aws-sdk-light-rhino.js",
+  "scripts": {
+    "shipit": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srikanthmanda/aws-sdk-light-apigee-bundle"
+  },
+  "keywords": [
+    "apigee",
+    "aws-sdk-light",
+    "rhino",
+    "lambda"
+  ],
+  "author": "github.com/srikanthmanda",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk-light": "^1.3.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
